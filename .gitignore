@@ -9,4 +9,6 @@
 *.bbl
 *.blg
 *.bak
-
+*.bcf
+*.out
+*.xml

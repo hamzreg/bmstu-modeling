@@ -20,7 +20,7 @@ class Settings:
     button_width = 100
 
     function_title = 'График функции распределения'
-    density_title = 'График плотности распределения '
+    density_title = 'График функции плотности распределения '
 
     error_title = 'Ошибка ввода'
     error_text = 'Неверный ввод параметров.'
