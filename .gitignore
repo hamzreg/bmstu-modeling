@@ -1,0 +1,12 @@
+# Python files
+*.pyc
+
+# Latex auxiliary files
+*.aux
+*.log
+*.toc
+*.gz
+*.bbl
+*.blg
+*.bak
+
