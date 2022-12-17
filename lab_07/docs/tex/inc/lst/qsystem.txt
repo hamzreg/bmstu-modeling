@@ -1,0 +1,12 @@
+         GENERATE (UNIFORM(1,5,15)),0,1000
+enqueue  QUEUE qsystem_queue
+
+         SEIZE handler
+         DEPART qsystem_queue
+         ADVANCE (NORMAL(1,8,0.5))
+         RELEASE handler
+
+         TRANSFER 0.3,complete,enqueue
+complete TERMINATE 1
+
+         START 1000

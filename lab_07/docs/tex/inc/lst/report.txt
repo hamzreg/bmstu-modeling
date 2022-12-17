@@ -1,0 +1,35 @@
+              GPSS World Simulation Report - qsystem.7.1
+
+                   Saturday, December 17, 2022 21:05:04  
+
+           START TIME           END TIME  BLOCKS  FACILITIES  STORAGES
+                0.000          12390.459     8        1          0
+
+              NAME                       VALUE  
+          COMPLETE                        8.000
+          ENQUEUE                         2.000
+          HANDLER                     10001.000
+          QSYSTEM_QUEUE               10000.000
+
+ LABEL              LOC  BLOCK TYPE     ENTRY COUNT CURRENT COUNT RETRY
+                    1    GENERATE          1148             0       0
+ENQUEUE             2    QUEUE             1572           147       0
+                    3    SEIZE             1425             1       0
+                    4    DEPART            1424             0       0
+                    5    ADVANCE           1424             0       0
+                    6    RELEASE           1424             0       0
+                    7    TRANSFER          1424             0       0
+COMPLETE            8    TERMINATE         1000             0       0
+
+
+FACILITY         ENTRIES  UTIL.   AVE. TIME AVAIL. OWNER PEND INTER RETRY DELAY
+ HANDLER           1425    0.919       7.990  1     1042    0    0     0    147
+
+QUEUE              MAX CONT. ENTRY ENTRY(0) AVE.CONT. AVE.TIME   AVE.(-0) RETRY
+ QSYSTEM_QUEUE     150  148   1572      3    67.732    533.860    534.881   0
+
+CEC XN   PRI          M1      ASSEM  CURRENT  NEXT  PARAMETER    VALUE
+  1042    0       11279.221   1042      3      4
+
+FEC XN   PRI         BDT      ASSEM  CURRENT  NEXT  PARAMETER    VALUE
+  1149    0       12396.761   1149      0      1
