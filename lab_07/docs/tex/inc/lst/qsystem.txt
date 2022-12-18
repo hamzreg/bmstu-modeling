@@ -1,4 +1,4 @@
-         GENERATE (UNIFORM(1,5,15)),0,1000
+         GENERATE (UNIFORM(1,5,15)),,,1000
 enqueue  QUEUE qsystem_queue
 
          SEIZE handler
